@@ -1,0 +1,35 @@
+.infocard-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 107px;
+    width: 100%;
+    background: linear-gradient(to right,#fff 0%,#fff 50%,#f2f2f2 50%,#f2f2f2 100%);
+    padding: 64px 0;
+}
+
+.infocard-text-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    width: 240px;
+}
+
+.info-card-title {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.info-card-description {
+    font-size: 16px;
+}
+
+.info-card-button {
+    padding: 12px 24px;
+    border: 1px solid #000;
+    border-radius: 6px;
+    font-size: 16px;
+}

@@ -1,0 +1,12 @@
+.tipbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    background-color: #f2f2f2;
+    padding: 28px 0;
+}
+
+.tipbar-text {
+    font-size: 16px;
+}
