@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 136px 382px;
+    padding: 136px 290px;
 }
 
 .contact-text {
@@ -25,4 +25,14 @@
 .contact-link {
     font-size: 32px;
     color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-container {
+        padding: 50px;
+    }
+
+    .contact-text, .contact-link {
+        font-size: 24px;
+    }
 }

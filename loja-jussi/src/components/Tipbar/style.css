@@ -10,3 +10,11 @@
 .tipbar-text {
     font-size: 16px;
 }
+
+@media screen and (max-width: 768px) {
+    .tipbar-container {
+        width: 100%;
+        overflow: overlay;
+        justify-content: flex-start;
+    }
+}

@@ -1,11 +1,13 @@
 import React from 'react';
 import './style.css';
+
 import logoIcon from '../../assets/images/jussi-logo.svg';
 import searchIcon from '../../assets/images/search-icon.svg'
 import minicartIcon from '../../assets/images/shopping-cart-icon.svg';
+import menuMobile from '../../assets/images/menu-mobile.svg';
 
 const Header = () => {
-    return (
+    return window.innerWidth > 768 ? (
         <>
             <header className='header'>
                 <div className='main-header'>
@@ -29,6 +31,15 @@ const Header = () => {
                 </div>
             </header>
         </>
+    ) : (
+        <header className='header'>
+            <div className='main-header'>
+                <div className="header-left">
+                    <img src={logoIcon} alt="Logo" />
+                    <img src={menuMobile} alt="" />
+                </div>
+            </div>
+        </header>
     )
 } 
 

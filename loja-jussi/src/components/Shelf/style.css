@@ -1,0 +1,11 @@
+.shelf-container {
+    margin: 56px 117px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.shelf-title-container {
+    display: flex;
+    align-items: center;
+}

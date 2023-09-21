@@ -5,6 +5,8 @@
     padding: 15px 24px;
 }
 
+
+
 .header-left, .header-right {
     display: flex;
     align-items: center;
@@ -48,4 +50,15 @@
 
 .header-minicart > img {
     width: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .main-header {
+        display: block;
+    }
+
+    .header-left {
+        justify-content: space-between;
+        gap: 0;
+    }
 }
