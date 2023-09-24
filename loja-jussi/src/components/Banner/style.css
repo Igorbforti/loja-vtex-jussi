@@ -4,6 +4,7 @@
     justify-content: space-evenly;
     height: 560px;
     background-color: #03ffa5;
+    margin-top: 71px;
 }
 
 .banner-left {
@@ -100,5 +101,10 @@
 @media screen and (max-width: 768px) {
     .banner-container {
         padding: 0 20px;
+    }
+
+    .banner-title {
+        font-size: 45px;
+        line-height: 45px;
     }
 }

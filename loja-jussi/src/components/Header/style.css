@@ -1,11 +1,17 @@
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    background-color: #fff;
+    width: 100%;
+}
+
 .main-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 15px 24px;
 }
-
-
 
 .header-left, .header-right {
     display: flex;
@@ -41,11 +47,18 @@
     color: #ee0e7d;    
 }
 
-.header-search-icon {
+.header-search-submit {
     border: none;
+    font-size: 0;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../assets/images/search-icon.svg");
+    background-repeat: no-repeat;
     background-color: transparent;
     position: absolute;
     right: 8px;
+    padding: 0;
+    cursor: pointer;
 }
 
 .header-minicart > img {
@@ -60,5 +73,9 @@
     .header-left {
         justify-content: space-between;
         gap: 0;
+    }
+
+    .header-search-container {
+        margin-top: 20px;
     }
 }

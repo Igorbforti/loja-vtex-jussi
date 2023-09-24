@@ -1,5 +1,4 @@
 import React from "react";
-import Slider from 'react-slick';
 import "./style.css"
 
 import shelfImg1 from '../../assets/images/shelf-image1.svg';
@@ -9,28 +8,6 @@ import shelfImg4 from '../../assets/images/shelf-image4.svg';
 
 const Products = () => {
     
-    const settings = {
-        dots: false,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 4,
-        arrows: true,
-        slidesToScroll: 4,
-        className: "shelf",
-        responsive: [
-            {
-            breakpoint: 768,
-            settings: {
-                arrows: false,
-                dots: false,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                infinite: true
-            }
-            }
-        ]
-    };
-
     const shelfs = [
         {
             url: shelfImg1,
@@ -79,10 +56,10 @@ const Products = () => {
     ]
 
     return (
-        <Slider {...settings}>
-            {shelfs.map((shelf) => {
+        <div className="shelf-box">
+            {shelfs.map((shelf, id) => {
                 return (
-                    <div className="shelf-box">
+                    <div key={id} className="shelf-card">
                         <img src={shelf.url} alt="" className="shelf-image"/>
                         <p className="shelf-name">{shelf.name}</p>
                         <p className="shelf-description">{shelf.description}</p>
@@ -95,7 +72,7 @@ const Products = () => {
                     </div>
                 )
             })}
-        </Slider>
+        </div>
     )
 }
 
