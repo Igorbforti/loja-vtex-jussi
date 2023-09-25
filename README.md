@@ -1,21 +1,53 @@
-# Primeiros passos com o aplicativo Create React
+# Projeto Teste para Vaga de Emprego na Jussi
 
-Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao meu projeto teste para a vaga de emprego na Jussi! Neste projeto, desenvolvi uma aplicação web utilizando a tecnologia React. A aplicação consome dados da API de produtos da Fake Store API (https://fakestoreapi.com/products) para exibir informações sobre produtos em uma interface de usuário amigável.
 
-## Scripts Disponíveis
+## Pré-requisitos
 
-No diretório do projeto, você pode executar:
+Antes de executar o projeto, certifique-se de ter o Node.js e o npm (gerenciador de pacotes do Node.js) instalados em sua máquina.
 
-### `npm start`
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
 
-Executa o aplicativo no modo de desenvolvimento.\
-Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo em seu navegador.
+## Como Executar o Projeto
 
-A página será recarregada quando você fizer alterações.\
-Você também pode ver erros de lint no console.
+Para executar o projeto, siga os passos abaixo:
 
-# Instruções sobre como usar a barra de pesquisa
+1. Clone este repositório para sua máquina local:
 
-A search bar utiliza uma API para busca de produtos fictícios, basta escrever no campo um dos produtos que possui na API que eles vao aparecer.
+   ```bash
+   git clone https://github.com/Igorbforti/loja-vtex-jussi.git
+   ```
 
-Link da API: [https://fakestoreapi.com/products](https://fakestoreapi.com/products)
+3. Instale as dependências do projeto com o npm:
+
+   ```bash
+   npm install
+   ```
+
+4. Inicie a aplicação:
+
+   ```bash
+   npm start
+   ```
+
+Após executar o comando `npm start`, a aplicação React será iniciada e estará disponível no seu navegador padrão em `http://localhost:3000/`. Você poderá explorar a lista de produtos consumidos da API da Fake Store.
+
+## Funcionalidades
+
+Este projeto possui as seguintes funcionalidades:
+
+- Exibe uma lista de produtos com informações detalhadas, incluindo nome, preço e imagem.
+- Fornece uma interface de usuário intuitiva e responsiva para uma experiência agradável ao usuário.
+
+## Contato
+
+Se tiver alguma dúvida ou precisar de assistência adicional, não hesite em entrar em contato comigo:
+
+- Nome: Igor Bonuzzi Forti
+- Email: igorbonuzzi@gmail.com
+- GitHub: [(https://github.com/Igorbforti)]
+
+Obrigado por considerar minha aplicação para a vaga de emprego na Jussi. Estou ansioso para discutir mais sobre o projeto e minhas habilidades em uma possível entrevista.
+
+**Divirta-se explorando a aplicação!** 🚀
